@@ -228,7 +228,7 @@ if choice=="Login":
         if not email or not passw :
             st.sidebar.error("Please enter your full credentials !")
         else:
-            try:
+            #try:
                 placeholder.empty()
                 user=auth.sign_in_with_email_and_password(email,passw)
                
@@ -559,12 +559,12 @@ if choice=="Login":
                        
                  
                      
-            except:
-                 st.sidebar.error("Invalid email or password !")
-                 st.sidebar.markdown(f"___")
-                 if st.sidebar.button("Reset Password !"):
-                     auth.send_password_reset_email(email)
-                     st.success("Password reset link sent successfully !")               
+            #except:
+                 #st.sidebar.error("Invalid email or password !")
+                 #st.sidebar.markdown(f"___")
+                 #if st.sidebar.button("Reset Password !"):
+                     #auth.send_password_reset_email(email)
+                     #st.success("Password reset link sent successfully !")               
                  
 
 
