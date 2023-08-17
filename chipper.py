@@ -154,7 +154,7 @@ st.markdown(textcolor,unsafe_allow_html=True)
 
 streamlitstyle = """
 			<style>
-			sidebar,body,[class*="css"]{background-image: url("https://cdn.theatlantic.com/thumbor/Sy0CJqDYC9tkLmlM1XA4GgksyYo=/0x0:3500x1969/960x540/media/img/mt/2023/02/yo_yo_economy/original.gif");
+			sidebar,body,[class*="css"]{background-image: url("https://github.com/images/modules/search/dark.png");
                         background-attachment: fixed;
                         background-size: cover 
 			
@@ -168,7 +168,7 @@ streamlitstyle = """
 
 
 
-#st.markdown(streamlitstyle, unsafe_allow_html=True)
+st.markdown(streamlitstyle, unsafe_allow_html=True)
 
 font_css = """
 <style>
